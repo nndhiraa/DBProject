@@ -26,7 +26,7 @@ public class Restoran extends javax.swing.JFrame {
     PreparedStatement pst;
 
     public void Connect() {
-        String connection = "jdbc:sqlserver://LAPTOP-24D05A2Q:1433;databaseName=PickAFood;user=sa;password=dearest123;encrypt=true;trustServerCertificate=true";
+        String connection = "jdbc:sqlserver://LAPTOP-24D05A2Q:1433;databaseName=PickAFood;user=sa;password=;encrypt=true;trustServerCertificate=true";
 
         try {
             con = DriverManager.getConnection(connection);
